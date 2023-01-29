@@ -34,7 +34,7 @@ export default function InputBox({
       <Text className="text-xs mb-1 text-black font-light">{title}</Text>
       <View className=" w-full">
         <TextInput
-          className={`border rounded-md border-gray-400 focus:border-black focus:bg-gray-300 ${
+          className={`border rounded-md border-gray-400 focus:border-black text-black focus:bg-gray-300 ${
             inputValue.length > 0 &&
             (!isValid && regCheck ? 'border-red-500' : 'border-green-500')
           }`}

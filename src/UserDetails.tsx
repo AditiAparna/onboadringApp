@@ -112,6 +112,7 @@ export default function UserDetails({onNext}: {onNext: Function}) {
             title="Enter D.O.B (DD/MM/YYYY)"
             description="DD/MM/YYYY"
             onChangeText={handleDateChange}
+            handleValidation={validateDOB}
             maxLength={10}
             autoCapitalize="characters"
             keyboardType="numeric"
