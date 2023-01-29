@@ -7,17 +7,17 @@ Used Skills:
 2. Typescript
 3. Tailwind CSS
 
-1. User Details Screen
->> Contain fields: Shop Name, Email, Aadhaar, Pan and Birth date
->> Various validations for various fields are added
->> Reusable component used for input fields
+> User Details Screen
+1. Contain fields: Shop Name, Email, Aadhaar, Pan and Birth date
+2. Various validations for various fields are added
+3. Reusable component used for input fields
 
-2. Verification Screen
->> contains scrollable pdf and otp input field
->> used external library for viewing pdf (react-native-pdf)
->> can move to next screen only after entering otp (otp sending and validation APIs not integrated)
+> Verification Screen
+1. contains scrollable pdf and otp input field
+2. used external library for viewing pdf (react-native-pdf)
+3. can move to next screen only after entering otp (otp sending and validation APIs not integrated)
 
-3. Success Screen
->> final screen after validation step complete 
->> can go to first screen again after clicking on the center svg (to make navigating through screens easier)
+> Success Screen
+1. final screen after validation step complete 
+2. can go to first screen again after clicking on the center svg (to make navigating through screens easier)
 
